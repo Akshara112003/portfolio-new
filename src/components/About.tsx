@@ -106,7 +106,7 @@ const About = () => {
             <div className="flex flex-col mt-4 ml-4">
               <h2 className="text-2xl font-bold dark:text-white/80 text-black/80">Education</h2>
               <p className="text-lg dark:text-white/70 text-black/70 mt-2">
-                I'm currently a Postgraduate MCA final year with 8.8 CGPA & I hold a degree in B.Com with computer application with 7.8 CGPA.
+                Im currently a Postgraduate MCA final year with 8.8 CGPA & I hold a degree in B.Com with computer application with 7.8 CGPA.
               </p>
             </div>
           </div>
