@@ -4,12 +4,12 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #000000;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #000000;
     --foreground: #ededed;
   }
 }
@@ -18,4 +18,46 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+@keyframes gradient-xy {
+  0%, 100% {
+    background-position:  0% 50%;
+  }
+  50%{
+    background-position: 100% 50%;
+  }
+}
+
+.animate-gradient-xy {
+  animation: gradient-xy 5s ease infinite;
+  background-size: 200% 200%;
+}
+
+
+.bg-black-to-purple {
+  background: linear-gradient(to bottom, 
+    #000000 0%,  /* Black at the top */
+    #270f46 50%, /* Dark Purple in the middle */
+    #271045 100% /* Rich Purple at the bottom */
+  );
+}
+html {
+  scroll-behavior: smooth;
+}
+
+/* Add to your global CSS or component-level CSS */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 1.5s ease-out forwards;
 }
