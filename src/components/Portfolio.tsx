@@ -2,13 +2,13 @@
 "use client";
 import Image from "next/image";
 import { motion } from 'framer-motion';
-import project from "../assets/net1.png";
-import project1 from "../assets/link.png";
-import project2 from "../assets/chatbot.png";
-import project3 from "../assets/disney.png";
-import project4 from "../assets/signin.png";
-import project5 from "../assets/login.png";
-import project6 from "../assets/airpod.png";
+import project from "../assets/proj7.png";
+import project1 from "../assets/proj6.jpg";
+import project2 from "../assets/proj1.jpg";
+import project3 from "../assets/proj3.jpg";
+import project4 from "../assets/proj5.png";
+import project5 from "../assets/proj2.jpg";
+import project6 from "../assets/proj4.jpg";
 
 const projects = [
     {
