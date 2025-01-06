@@ -72,7 +72,7 @@ const About = () => {
       {/* Download CV Button */}
       <div className="flex justify-center mt-8">
         <a
-          href="https://drive.google.com/file/d/18Y4MFM9S0uhvepQGLUYfJsowF0vsOAcD/view?usp=sharing"
+          href="https://drive.google.com/file/d/1-ROJUpfL2HmGnTfNVzIJ1FhiT8dXJliG/view?usp=sharing"
           target="_blank"
           download="My_CV.pdf"
           className="px-6 py-3 bg-orange-400 text-white font-bold text-lg rounded-lg shadow-md hover:bg-purple-500 transition duration-300 animate__animated animate__pulse animate__infinite"
