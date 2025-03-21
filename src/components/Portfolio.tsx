@@ -9,6 +9,8 @@ import project3 from "../assets/proj3.jpg";
 import project4 from "../assets/proj5.png";
 import project5 from "../assets/proj2.jpg";
 import project6 from "../assets/proj4.jpg";
+import project7 from "../assets/project7.jpg";
+import project8 from "../assets/project8.jpg";
 
 const projects = [
     {
@@ -65,6 +67,22 @@ const projects = [
         link: "https://www.figma.com/proto/boskjT7A7a32ZREMsE9ywk/iphone-airpod?node-id=63-1198&t=3hIW7Wg1dWIx064s-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=63%3A1198&show-proto-sidebar=1",
         git: "",
         src: project6,
+    },
+    {
+        title: "LinkedIn poster making",
+        desc: "Designed an LinkedIn poster for recruitment Crm using Figma, Photoshop, illustration creating wireframes and prototypes to simulate the platform's user interface and experience.",
+        devStack: "Figma | Photoshop | Illsutration",
+        link: "https://www.figma.com/proto/ILpvPpcnJVVbQga59FUS8U/Task-Graphic-designing?node-id=11-386&t=PfEEINAWG29PJuS5-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=12%3A944&show-proto-sidebar=1",
+        git: "",
+        src: project7,
+    },
+    {
+        title: "Social media carousel - FRIENDS EDITION",
+        desc: "Designed an Social media carausel for Recruitment team structure – FRIENDS edition! using Figma, Photoshop, illustration creating wireframes and prototypes to simulate the platform's user interface and experience.",
+        devStack: "Figma | Photoshop | Illsutration",
+        link: "https://www.figma.com/proto/ILpvPpcnJVVbQga59FUS8U/Task-Graphic-designing?node-id=12-944&t=PfEEINAWG29PJuS5-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=12%3A944&show-proto-sidebar=1",
+        git: "",
+        src: project8,
     },
 ];
 
